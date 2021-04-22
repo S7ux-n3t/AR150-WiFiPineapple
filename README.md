@@ -1,14 +1,15 @@
 # AR-150 WiFi Pineapple NANO
 
-Converting your AR-150 to a WiFi Pineapple NANO should be an easy process.  However, the web & git is full of broken bin images and botched firmware builders... resulting in a broken or partially-working firmware. The latest working build available elsewhere is 2.4.2. Here, we start with version 2.5.4.
+Converting your AR-150 to a WiFi Pineapple NANO should be an easy process. However, the web & git is full of broken bin images and botched firmware builders... resulting in a broken or partially-working firmware. The latest working build available elsewhere is 2.4.2. Here, we start with version 2.5.4.
 This version is almost 100% equal of the original hardware.
 
 Summary for 2.7.x:
-1. Rootfs 1.3M
+1. Rootfs 832K
 2. PineAP(d) working.
 3. Drivers for: kmod-rt2800, kmod-rtl8187 and others
 4. Kernel 4.14.171
 5. Fix LAN and WAN ports. No more swapped ports.
+6. Use pendrive like original SD.
 
 Recomended setup
 1. USB 2.0 2 ports hub https://www.ebay.co.uk/itm/USB-2-0-2-Dual-Port-Hub-For-Laptop-Macbook-Notebook-PC-Mouse-Flash-Disk/273070654192
