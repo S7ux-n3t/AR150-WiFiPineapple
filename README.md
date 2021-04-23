@@ -4,7 +4,7 @@ Converting your AR-150 to a WiFi Pineapple NANO should be an easy process. Howev
 This version is almost 100% equal of the original hardware.
 
 Summary for 2.7.x:
-1. Rootfs 832K
+1. Rootfs 960K (mini 1.1M)
 2. PineAP(d) working.
 3. Drivers for: kmod-rt2800, kmod-rtl8187 and others
 4. Kernel 4.14.171
