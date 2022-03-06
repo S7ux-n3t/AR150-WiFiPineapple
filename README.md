@@ -20,3 +20,14 @@ Notes:
 1. For format jffs2 (overlayFS) use jffs2reset command.
 2. If you are stuck at the message "The WiFi Pineapple is still booting" don't panic, this is a known issue with running the WiFi Pineapple firmware on the AR150. All you have to do is ssh into the AR150 with the username root and password you set originally when you booted the AR150 right out of the box. Executing the command jffs2reset -y && reboot should resolve your problems. 
 3. For generate a custom build use this toolset https://github.com/xchwarze/wifi-pineapple-cloner
+
+
+### If you want to collaborate with hardware 
+
+To develop the next versions of this project I need:
+
+For TETRA clone:
+https://www.gl-inet.com/products/gl-ar750s/#specs
+
+For "WiFi Pineapple Mark 6.5":
+https://www.gl-inet.com/products/gl-mt1300/#specs
