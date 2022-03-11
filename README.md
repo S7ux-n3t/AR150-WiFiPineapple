@@ -4,10 +4,10 @@ Converting your AR-150 to a WiFi Pineapple NANO should be an easy process. Howev
 This version is almost 100% equal of the original hardware.
 
 Summary for 2.7.x:
-1. Rootfs 960K (mini 1.1M)
+1. Rootfs 1M (mini 1.2M)
 2. PineAP(d) working.
 3. Drivers for: kmod-rt2800, kmod-rtl8187 and others
-4. Kernel 4.14.171
+4. Kernel 4.14.171 (OpenWrt 19.02.2)
 5. Fix LAN and WAN ports. No more swapped ports.
 6. Use pendrive like original SD.
 
@@ -18,7 +18,7 @@ Recomended setup
 
 Notes:
 1. For format jffs2 (overlayFS) use jffs2reset command.
-2. If you are stuck at the message "The WiFi Pineapple is still booting" don't panic, this is a known issue with running the WiFi Pineapple firmware on the AR150. All you have to do is ssh into the AR150 with the username root and password you set originally when you booted the AR150 right out of the box. Executing the command jffs2reset -y && reboot should resolve your problems. 
+2. If you are stuck at the message "The WiFi Pineapple is still booting" don't panic, this is a known issue with running the WiFi Pineapple firmware on the AR150. Executing the command jffs2reset -y && reboot should resolve your problems. 
 3. For generate a custom build use this toolset https://github.com/xchwarze/wifi-pineapple-cloner
 
 
@@ -26,8 +26,8 @@ Notes:
 
 To develop the next versions of this project I need:
 
-For TETRA clone:
+For TETRA clone project:
 https://www.gl-inet.com/products/gl-ar750s/#specs
 
-For "WiFi Pineapple Mark 6.5":
+For "WiFi Pineapple Mark 6.5" project:
 https://www.gl-inet.com/products/gl-mt1300/#specs

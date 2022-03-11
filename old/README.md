@@ -15,13 +15,6 @@ Summary for 2.6.x:
 4. Kernel 4.14.134
 5. Fix LAN and WAN ports. No more swapped ports.
 
-Summary for 2.7.x:
-1. Rootfs 1.5M
-2. PineAP(d) working.
-3. Drivers for: kmod-rt2800, kmod-rtl8187, kmod-rtl8192cu and others (TL-WN7200ND, AWUS036H, based on RT5370, etc)
-4. Kernel 4.14.171
-5. Fix LAN and WAN ports. No more swapped ports.
-
 Recomended setup
 1. USB 2.0 2 ports hub https://www.ebay.co.uk/itm/USB-2-0-2-Dual-Port-Hub-For-Laptop-Macbook-Notebook-PC-Mouse-Flash-Disk/273070654192
 2. Generic RT5370 adapter
@@ -29,4 +22,4 @@ Recomended setup
 
 Notes:
 1. For format jffs2 (overlayFS) use jffs2reset command.
-2. If you are stuck at the message "The WiFi Pineapple is still booting" don't panic, this is a known issue with running the WiFi Pineapple firmware on the AR150. All you have to do is ssh into the AR150 with the username root and password you set originally when you booted the AR150 right out of the box. Executing the command jffs2reset -y && reboot should resolve your problems. 
+2. If you are stuck at the message "The WiFi Pineapple is still booting" don't panic, this is a known issue with running the WiFi Pineapple firmware on the AR150. Executing the command jffs2reset -y && reboot should resolve your problems. 
